@@ -1,23 +1,25 @@
 # Saif Najmil · Website revamp concept
 
-An independently designed, responsive website concept prepared by **SS DIGITAL LABS** using Hallmark-inspired design principles.
+A responsive Hallmark-inspired corporate website **concept** designed by **SS DIGITAL LABS**.
 
-> **Important:** Sector is a concept identity only. Saif Najmil’s company identity and existing business website have not yet been verified. No affiliation with Synergic Hallmark is claimed.
+> **Concept only:** Sector is not a verified company. Saif Najmil's actual company name and current website have not been confirmed. Do not present this as his official company site until the branding and copy have been validated.
 
-## Preview
-
-Once GitHub Pages is enabled at **Settings → Pages → Source: GitHub Actions**, the website deploys to:
+## Live preview
 
 https://shukritobi.github.io/saif-najmil-website/
 
-## Development
+## Website
 
-This deployed build is self-contained in `index.html`. The CSS and JavaScript are embedded so GitHub Pages does not need a build system or asset bundler.
-
-To change the branding, replace the Sector wordmark, placeholder capability text and the Threads contact link with verified client details before presenting this as a finished business website.
+The page is fully self-contained in `index.html` with embedded CSS, JavaScript and SVG. No npm install or build process is required.
 
 ## Deployment
 
-A GitHub Actions workflow in `.github/workflows/deploy-pages.yml` publishes this page on each push to `main`. If the first run reports that Pages is not enabled, switch **Settings → Pages → Build and deployment → Source** to **GitHub Actions**, then rerun the deployment workflow.
+The repository already has **GitHub Pages branch publishing** enabled. Commits to `main` publish the website automatically through GitHub's built-in `pages build and deployment` workflow.
 
-Designed by SS DIGITAL LABS.
+If the live link ever shows 404, check **Settings → Pages → Build and deployment**, where the publishing branch should be `main` and the folder `/(root)`.
+
+## Before client presentation
+
+Replace the Sector concept wordmark, placeholder service descriptions, and contact link with the client's real, verified company identity and website details.
+
+Made by SS DIGITAL LABS.
